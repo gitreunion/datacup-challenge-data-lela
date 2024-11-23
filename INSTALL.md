@@ -8,14 +8,29 @@ Indicate how to collect the data necessary for this project :
 
 ## Dependencies
 
-List the dependencies necessary to the project so that it can run locally :
-- language, libraries and packages
-- how to install them
-- recommended : use an environment file such as requirements.txt (py) or DESCRIPTION (R)
+* This project is developed with Python as the core programming language and utilizes Streamlit for designing, building, managing data and web interface.
+
+# Application Dependencies
+* List of Python dependencies:
+  * streamlit
+  * numpy
+  * pandas
+  * joblib
+  * matplotlib
+  * requests
+  * geopandas
+  * openpyxl
 
 ## Development
 
-Indicate how to run the solution in development mode locally.
+# Prerequisites
+# Install Docker on the machine running the application (follow the instructions at https://docs.docker.com/engine/install/)
+
+# Installation Steps
+1. Clone this project.
+2. Run the Dockerfile using the following command:
+   docker run -d -p 8080:8080 --rm datalela-apps
+3. Access the application at "http://localhost:8080"
 
 ## Production
 
