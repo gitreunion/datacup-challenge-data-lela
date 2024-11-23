@@ -1,0 +1,10 @@
+streamlit
+numpy
+pandas
+joblib
+matplotlib
+requests
+geopandas
+openpyxl
+folium
+streamlit_folium
