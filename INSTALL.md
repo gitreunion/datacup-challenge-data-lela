@@ -31,8 +31,9 @@ Install Docker on the machine running the application (follow the instructions a
 # Installation Steps
 1. Clone this project.
 2. Run the Dockerfile using the following command:
+   docker build -t datalela-apps .
    docker run -d -p 8080:8080 --rm datalela-apps
-3. Access the application at "http://localhost:8080"
+4. Access the application at "http://localhost:8080"
 
 ## Production
 
