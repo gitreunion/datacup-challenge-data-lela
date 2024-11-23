@@ -4,7 +4,9 @@
 
 Indicate how to collect the data necessary for this project :
 - Where and how to get the data ?
+      Météo France, Office de l'eau (API, CSV)
 - Where and how to integrate the data in the repository ? (example : in the direcctory data/raw)
+      Main
 
 ## Dependencies
 
@@ -23,8 +25,8 @@ Indicate how to collect the data necessary for this project :
 
 ## Development
 
-# Prerequisites
-# Install Docker on the machine running the application (follow the instructions at https://docs.docker.com/engine/install/)
+## Prerequisites
+Install Docker on the machine running the application (follow the instructions at https://docs.docker.com/engine/install/)
 
 # Installation Steps
 1. Clone this project.
